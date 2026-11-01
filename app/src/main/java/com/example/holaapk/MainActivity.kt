@@ -12,6 +12,8 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import android.view.Gravity
+import android.view.animation.AlphaAnimation
+import android.view.animation.Animation
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.FileProvider
@@ -31,6 +33,12 @@ class MainActivity : Activity() {
         titulo.text = "Hola mundo"
         titulo.textSize = 32f
         titulo.gravity = Gravity.CENTER
+
+        val parpadeo = AlphaAnimation(1f, 0f)
+        parpadeo.duration = 500
+        parpadeo.repeatMode = Animation.REVERSE
+        parpadeo.repeatCount = Animation.INFINITE
+        titulo.startAnimation(parpadeo)
 
         estado = TextView(this)
         estado.text = "Versión " + BuildConfig.VERSION_CODE
