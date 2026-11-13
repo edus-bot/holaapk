@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.93",
-  "versionCode": 4093,
+  "version": "0.4.95",
+  "versionCode": 4095,
   "packageName": "com.pulso.alertas",
-  "sha256": "84650c5b8d5d2b343463952c60c0e842977bccafd6373879ee6cf795113fefd4",
+  "sha256": "691af5d2bc4a9e9604087faf7ae81bc9b88c571241e89e4f48e0e13f937c2f3a",
   "certificateFingerprint": "35252aea28e6d82c42376925dc742267efc55588db56ebaddfb4c35120820170",
-  "apkUrl": "https://github.com/edus-bot/holaapk/releases/download/v0.4.93/pulsoNar.apk"
+  "apkUrl": "https://github.com/edus-bot/holaapk/releases/download/v0.4.95/pulsoNar.apk"
 }
